@@ -1,90 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
-	<meta charset="UTF-8">
-	<title>Sidebar</title>
-	<link rel='stylesheet' href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css'>
-	<link rel='stylesheet' href='http://puertokhalid.com/up/demos/puerto-Mega_Menu/css/normalize.css'>
-	<link rel="stylesheet" href="./css/style_sidebar.css">
+  <meta charset="UTF-8">
+  <title>Sidebar</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="/css/style_sidebar.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 
 </head>
-
 <body>
+<nav>
+  <ul>
+    <li>
+        <div>
+			<img th:src="@{/image/icon/produto.png}" alt="logo" style="width:40px;">
+        </div>
+    </li>
+	<li>
+        <div>
+			<img th:src="@{/image/icon/pedido_1.png}" alt="logo" style="width:40px;">
+        </div>
+    </li>
+	<li>
+        <div>
+			<img th:src="@{/image/icon/estoque.png}" alt="logo" style="width:40px;">
+        </div>
+    </li>
+	<li>
+        <div>
+			<img th:src="@{/image/icon/clientes.png}" alt="logo" style="width:40px;">
+        </div>
+    </li>
+	<li>
+        <div>
+			<img th:src="@{/image/icon/funcionario.png}" alt="logo" style="width:40px;">
+        </div>
+    </li>
+  </ul>
+</nav>
 
-	<div class="container">
-		<nav>
-			<ul class="mcd-menu">
-				<li>
-					<a href="">
-						<i class="fa fa-home"></i>
-						<strong>Home</strong>
-					</a>
-				</li>
-				<li>
-					<a href="" class="active">
-						<i class="fa fa-edit"></i>
-						<strong>Produtos</strong>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<i class="fa fa-gift"></i>
-						<strong>Pedidos</strong>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<i class="fa fa-globe"></i>
-						<strong>Estoque</strong>
-
-					</a>
-				</li>
-				<!-- <li>
-					<a href="">
-						<i class="fa fa-comments-o"></i>
-						<strong>Blog</strong>
-						<small>what they say</small>
-					</a>
-					<ul>
-						<li><a href="#"><i class="fa fa-globe"></i>Mission</a></li>
-						<li>
-							<a href="#"><i class="fa fa-group"></i>Our Team</a>
-							<ul>
-								<li><a href="#"><i class="fa fa-female"></i>Leyla Sparks</a></li>
-								<li>
-									<a href="#"><i class="fa fa-male"></i>Gleb Ismailov</a>
-									<ul>
-										<li><a href="#"><i class="fa fa-leaf"></i>About</a></li>
-										<li><a href="#"><i class="fa fa-tasks"></i>Skills</a></li>
-									</ul>
-								</li>
-								<li><a href="#"><i class="fa fa-female"></i>Viktoria Gibbers</a></li>
-							</ul>
-						</li>
-						<li><a href="#"><i class="fa fa-trophy"></i>Rewards</a></li>
-						<li><a href="#"><i class="fa fa-certificate"></i>Certificates</a></li>
-					</ul>
-				</li> -->
-				<li>
-					<a href="">
-						<i class="fa fa-picture-o"></i>
-						<strong>Clientes</strong>
-
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<i class="fa fa-picture-o"></i>
-						<strong>Funcionários</strong>
-					</a>
-				</li>
-			</ul>
-		</nav>
-	</div>
-
-
-
+<section>
+  <h1>testando sidebar</h1>
+</section>
+  
 </body>
-
 </html>
