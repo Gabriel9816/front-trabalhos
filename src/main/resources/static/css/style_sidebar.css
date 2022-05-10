@@ -84,3 +84,33 @@ nav ul li > div {
 }
 
 nav ul li div { position: relative; }
+
+.fachada {
+  display: flex;
+  flex-direction: row;
+}
+
+.one{
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 0px 0px 5px 5px;
+} 
+.two{
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  border-radius: 0px 0px 5px 5px;
+}
+.three{
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  border-radius: 0px 0px 5px 5px;
+}
+.four{
+  width: 30px;
+  height: 30px;
+  background-color: orange;
+  border-radius: 0px 0px 5px 5px;
+}
