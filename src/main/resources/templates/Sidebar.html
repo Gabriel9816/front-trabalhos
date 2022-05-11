@@ -4,11 +4,13 @@
   <meta charset="UTF-8">
   <title>Sidebar</title>
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel="stylesheet" href="/css/style_sidebar.css">
+<!-- <link rel="stylesheet" href="/css/style_sidebar.css"> -->
+<link rel="stylesheet" href="/css/dashboardAdmin.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 
 </head>
 <body>
+	<header>
 	<div class="fachada">
 		<div class="one"></div>
 		<div class="two"></div>
@@ -75,6 +77,29 @@
 		<div class="three"></div>
 		<div class="four"></div>
 	</div>
+	<nav>
+		<form class="form-navbar">
+			<div class="inputs">
+				<input type="number">
+				<p>A</p> <input type="number">
+			</div>
+			<p class="period">ESCOLHA O PERÍODO</p>
+		</form>
+		<h1>RESTAURANTE BONNA PETIT</h1>
+		<section>
+			<div class="user">
+				<img th:src="@{/image/icon/account.png}" alt="logo" style="width:40px;">
+				<div class="name-user">
+					<p class="">Gabriel Oliveira</p>
+					<p class="user-function">USUARIO ADM</p>
+				</div>
+			</div>
+		</section>
+	</nav>
+</header>
+
+<main>
+	<section class="sidebar">
 <nav>
   <ul>
     <li>
@@ -104,10 +129,25 @@
     </li>
   </ul>
 </nav>
-
-<section>
-  <h1> </h1>
 </section>
+<section class="container">
+	<div id="box-1" class="box">
+		<p>Número de pedido</p>
+	</div>
+	<div id="box-2" class="box">
+		<p>Faturamento</p>
+	</div>
+	<div id="box-3" class="box">
+		<p>Ticket Médio</p>
+	</div>
+	<div id="box-4" class="box">
+		<p>Produtos mais pedidos</p>
+	</div>
+	<div id="box-5" class="box">
+		<p>Pedidos por tipo de entrega</p>
+	</div>
+</section>
+</main>
   
 </body>
 </html>

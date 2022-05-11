@@ -18,4 +18,12 @@ public class Pages {
     public String sidebar() {
         return "Sidebar";
     }
+    @GetMapping("/dashadmin")
+    public String dashadmin() {
+        return "dashboard_admin";
+    }
+    @GetMapping("/dash")
+    public String dash() {
+        return "dash";
+    }
 }
