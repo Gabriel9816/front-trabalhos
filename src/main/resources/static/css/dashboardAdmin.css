@@ -117,6 +117,12 @@ nav h1 {
     border-radius: 0px 0px 5px 5px;
 }
 
+.five {
+    width: 30px;
+    height: 30px;
+    background-color: #7a3d70;
+    border-radius: 0px 0px 5px 5px;
+}
 .sidebar {
     float: left;
     position: sticky;
@@ -133,7 +139,7 @@ nav h1 {
     position: relative;
     width: 90px;
     cursor: pointer;
-    background: rgb(70, 69, 69);
+    /* background: #c12138; */
     text-transform: uppercase;
     transition: all .4s ease-out;
     border-radius: 0 10px 10px 0;
@@ -142,7 +148,7 @@ nav h1 {
 
 .sidebar ul li:after {
     position: absolute;
-    background: rgb(117, 114, 114);
+    /* background: #48a3cc; */
     color: rgb(255, 255, 255);
     top: 0;
     left: 60px;
@@ -155,12 +161,31 @@ nav h1 {
     border-radius: 0 10px 10px 0;
 }
 
+.sidebar ul li:nth-child(1) {
+    background: #c12138; 
+}
+.sidebar ul li:nth-child(2) {
+    background: #48a3cc;
+}
+.sidebar ul li:nth-child(3) {
+    background: #14ce40;
+}
+.sidebar ul li:nth-child(4) {
+    background: #ebd429;
+}
+.sidebar ul li:nth-child(5) {
+    background: #7a3d70; 
+}
+
+
 .sidebar ul li:nth-child(1):after {
+    background: #48a3cc;
     content: "Produtos";
     line-height: 88px;
 }
 
 .sidebar ul li:nth-child(2):after {
+    background: #c12138;
     content: "Pedidos";
     line-height: 88px;
 }

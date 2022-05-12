@@ -21,7 +21,7 @@ body {
   line-height: 1.5;
   min-height: 100vh;
   font-family: "Be Vietnam Pro", sans-serif;
-  background-color: #5DCEAF;
+  background-color: #4dd3c6;
   color: var(--c-text-primary);
 }
 
@@ -58,7 +58,7 @@ a {
   min-height: 80vh;
   width: 95%;
   max-width: 1600px;
-  background-color: #5DCEAF;
+  background-color: #4dd3c6;
   padding: 2vw 4vw 6vw;
   display: flex;
   flex-direction: column;
