@@ -26,4 +26,12 @@ public class Pages {
     public String dash() {
         return "dash";
     }
+    @GetMapping("/teste")
+    public String teste() {
+        return "sidebar_and_navbar";
+    }
+    @GetMapping("/facade")
+    public String facade() {
+        return "facade";
+    }
 }
